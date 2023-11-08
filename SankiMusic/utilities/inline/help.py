@@ -93,9 +93,15 @@ def help_back_markup(_):
             [
                 InlineKeyboardButton(
                     # text=_["BACK_BUTTON"],
-                    text="≽ ʙᴀᴄᴋ ≼",
+                    text=" ʙᴀᴄᴋ ",
                     callback_data=f"settings_back_helper",
-                ),
+            ), 
+               
+                 InlineKeyboardButton( 
+                 text="ᴄᴏᴍᴘʟᴀɪɴ ✅", url=f"https://t.me/GJ516_DISCUSS_GROUP", 
+            ),
+            ],
+            [
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"], callback_data=f"close"
                 )
@@ -109,12 +115,12 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="≽ ʙᴀᴄᴋ ≼",
+                text=" ʙᴀᴄᴋ ",
                 callback_data="settings_back_helper",
             ),
-                         InlineKeyboardButton( 
-                     text="ᴄᴏᴍᴘʟᴀɪɴ ✅", url=f"https://t.me/GJ516_DISCUSS_GROUP", 
-                 ),
+            InlineKeyboardButton( 
+                 text="ᴄᴏᴍᴘʟᴀɪɴ ✅", url=f"https://t.me/GJ516_DISCUSS_GROUP", 
+             ),
 
         ],
     ]
