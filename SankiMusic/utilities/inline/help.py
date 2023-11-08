@@ -112,6 +112,10 @@ def private_help_panel(_):
                 text="≽ ʙᴀᴄᴋ ≼",
                 callback_data="settings_back_helper",
             ),
+                         InlineKeyboardButton( 
+                     text="ᴄᴏᴍᴘʟᴀɪɴ ✅", url=f"https://t.me/GJ516_DISCUSS_GROUP", 
+                 ),
+
         ],
     ]
     return buttons
