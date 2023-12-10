@@ -332,11 +332,11 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ITS_HELLL_BOYYY"
+                text="Oᴡɴᴇʀ ⛵ ", url=f"https://t.me/lippsxd"
             ),
             
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/EAGLE_MAFIA_CLUB"
+                text="Uᴘᴅᴀᴛᴇꜱ 🎊", url=f"https://t.me/GJ516_DISCUSS_GROUP"
             )
         ],
     ]
