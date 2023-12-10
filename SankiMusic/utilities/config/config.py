@@ -103,9 +103,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/dff20c9bb7e52a9131fae.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/cc6c9d8726a107961b34f.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/9a246bd831590d22d2582.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/5e18f8ea275b70df0f3a1.jpg"
