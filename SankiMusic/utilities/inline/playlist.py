@@ -5,16 +5,16 @@ def botplaylist_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴩᴇʀsᴏɴᴀʟ 🚀 ",
+                text="Pᴇʀsᴏɴᴀʟ 🚀 ",
                 callback_data="get_playlist_playmode",
             ),
             InlineKeyboardButton(
-                text="ɢʟᴏʙᴀʟ ⛵", callback_data="get_top_playlists"
+                text="Gʟᴏʙᴀʟ ⛵", callback_data="get_top_playlists"
             ),
         ],
         [
             InlineKeyboardButton(
-                text=" ᴄʟᴏsᴇ 💦 ", callback_data="close"
+                text=" Cʟᴏsᴇ 💦 ", callback_data="close"
             ),
         ],
     ]
