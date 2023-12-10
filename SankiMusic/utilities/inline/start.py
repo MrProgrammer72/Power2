@@ -39,11 +39,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text=" ❰𝗖𝗵𝗮𝗻𝗻𝗲𝗹❱", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text=" ❰𝗚𝗿𝗼𝘂𝗽❱ ", url=config.SUPPORT_GROUP
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text=" ❰𝙊𝙬𝙣𝙚𝙧❱", url="https://t.me/ITS_HELLL_BOYYY"
             )
         ]
