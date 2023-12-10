@@ -8,13 +8,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=" Commands ",
+                text=" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 🥀 ",
                 url=f"https://t.me/{BOT_USERNAME}?start=help",
             )
         ],
         [
             InlineKeyboardButton(
-                text="⚡ Git Repo ⚡", url=f"https://github.com/MrProgrammer72/GJ516Music"
+                text="ᴜᴘᴅᴀᴛᴇꜱ 🎊", url=f"https://github.com/MrProgrammer72/GJ516Music"
             )
         ],
      ]
