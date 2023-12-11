@@ -47,9 +47,9 @@ class App(Client):
         if config.STRING1:
             await self.one.start()
             try:
+                await self.one.join_chat("gj516_discuss_group")
                 await self.one.join_chat("myworldGJ516")
-                await self.one.join_chat("myworldGJ516")
-                await self.one.join_chat("myworldGJ516")
+                await self.one.join_chat("gj516_discuss_group")
             except:
                 pass
             assistants.append(1)
@@ -79,7 +79,7 @@ class App(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("myworldGJ516")
+                await self.two.join_chat("gj516_discuss_group")
                 await self.one.join_chat("myworldGJ516")
                 await self.one.join_chat("myworldGJ516")
             except:
@@ -113,7 +113,7 @@ class App(Client):
             try:
                 await self.three.join_chat("myworldGJ516")
                 await self.one.join_chat("myworldGJ516")
-                await self.one.join_chat("myworldGJ516")
+                await self.one.join_chat("gj516_discuss_group")
             except:
                 pass
             assistants.append(3)
@@ -177,7 +177,7 @@ class App(Client):
             try:
                 await self.five.join_chat("myworldGJ516")
                 await self.one.join_chat("myworldGJ516")
-                await self.one.join_chat("myworldGJ516")
+                await self.one.join_chat("gj516_discuss_group")
             except:
                 pass
             assistants.append(5)
